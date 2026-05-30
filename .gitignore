@@ -1,0 +1,27 @@
+# Go artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+ebpf-hello
+
+# Go module/vendor
+vendor/
+
+# eBPF generated ELF object files (embedded in generated Go code)
+*.o
+
+# Editor/OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
